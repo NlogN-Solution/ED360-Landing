@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/space-grotesk";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Space Grotesk Variable", ui-sans-serif, sans-serif;
+  --font-sans: "Geist Variable", ui-sans-serif, sans-serif;
+
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+}
+
+:root {
+  --ink: #12131a;
+  --ink-muted: #5a5d6b;
+  --paper: #f7f8fa;
+  --surface: #ffffff;
+  --surface-raised: #f0f1f4;
+  --border: #e4e6eb;
+  --accent: #2e5cff;
+  --accent-ink: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f4f5f7;
+    --ink-muted: #9a9db0;
+    --paper: #0b0d12;
+    --surface: #12141c;
+    --surface-raised: #191c26;
+    --border: #262a38;
+    --accent: #5b82ff;
+    --accent-ink: #0b0d12;
+  }
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-ink);
+}
