@@ -29,7 +29,7 @@ export function Footer() {
             <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--accent)] text-[var(--accent-ink)]">
               <Zap className="h-3.5 w-3.5" strokeWidth={2.5} />
             </div>
-            <span className="font-display text-[15px] font-semibold tracking-tight">Ignition</span>
+            <span className="font-display text-[15px] font-semibold tracking-tight">ED360</span>
           </Link>
           <p className="mt-3 max-w-xs text-sm text-[var(--ink-muted)]">
             The operating system for international education consultancies — from first call to visa stamp.
@@ -52,7 +52,7 @@ export function Footer() {
         ))}
       </Container>
       <Container className="flex flex-col gap-2 border-t border-[var(--border)] py-6 text-xs text-[var(--ink-muted)] sm:flex-row sm:items-center sm:justify-between">
-        <p>© {new Date().getFullYear()} Ignition. A demo product built for illustration.</p>
+        <p>© {new Date().getFullYear()} ED360. A demo product built for illustration.</p>
       </Container>
     </footer>
   );

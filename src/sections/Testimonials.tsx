@@ -10,7 +10,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Every counsellor was keeping their own spreadsheet. Ignition gave us one pipeline everyone actually uses — leads stopped falling through the cracks within a week.",
+      "Every counsellor was keeping their own spreadsheet. ED360 gave us one pipeline everyone actually uses — leads stopped falling through the cracks within a week.",
     name: "Daniel Osei",
     role: "Founder, fictional demo consultancy",
   },

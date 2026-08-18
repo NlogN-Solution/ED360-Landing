@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     question: "Do you support multiple destination countries?",
-    answer: "Yes — Ignition ships with application workflow templates for Australia, Canada, the UK, and the US, and you can customize your own.",
+    answer: "Yes — ED360 ships with application workflow templates for Australia, Canada, the UK, and the US, and you can customize your own.",
   },
 ];
 

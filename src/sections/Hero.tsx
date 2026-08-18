@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mx-auto mt-5 max-w-xl text-lg text-[var(--ink-muted)]"
           >
-            Ignition tracks every student from first call to visa stamp — leads, documents, applications, and offers,
+            ED360 tracks every student from first call to visa stamp — leads, documents, applications, and offers,
             all in one pipeline your whole team can see.
           </motion.p>
 

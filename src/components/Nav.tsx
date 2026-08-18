@@ -19,7 +19,7 @@ export function Nav() {
           <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--accent)] text-[var(--accent-ink)]">
             <Zap className="h-3.5 w-3.5" strokeWidth={2.5} />
           </div>
-          <span className="font-display text-[15px] font-semibold tracking-tight">Ignition</span>
+          <span className="font-display text-[15px] font-semibold tracking-tight">ED360</span>
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">

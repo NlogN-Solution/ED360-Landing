@@ -61,7 +61,7 @@ export function SuccessPage() {
           </div>
 
           <ButtonLink to={result.login_url} size="lg" className="mt-8 w-full">
-            Log in to Ignition
+            Log in to ED360
           </ButtonLink>
         </Container>
       </main>

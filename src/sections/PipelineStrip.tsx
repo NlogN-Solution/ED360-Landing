@@ -13,7 +13,7 @@ const STAGES = [
 
 /**
  * The signature element — a live-feeling strip of the exact pipeline every
- * consultancy already runs by hand (and that Ignition models as real
+ * consultancy already runs by hand (and that ED360 models as real
  * `WorkflowStage` rows, not an invented metaphor). One stage lights up at a
  * time, cycling continuously.
  */

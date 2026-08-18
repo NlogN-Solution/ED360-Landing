@@ -80,7 +80,7 @@ export function SignupPage() {
             <div className="space-y-1.5">
               <label className="text-sm font-medium text-[var(--ink)]">Workspace URL</label>
               <div className="flex items-center gap-2 rounded-lg border border-[var(--border)] bg-[var(--paper)] px-3.5 py-2.5 text-sm">
-                <span className="text-[var(--ink-muted)]">app.ignition.dev/</span>
+                <span className="text-[var(--ink-muted)]">app.ed360.dev/</span>
                 <input
                   required
                   value={slug}
